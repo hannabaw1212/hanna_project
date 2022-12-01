@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="418.0" prefWidth="665.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="456.0" fitWidth="665.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@backgroundknight.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="225.0" layoutY="210.0" mnemonicParsing="false" mouseTransparent="true" prefHeight="40.0" prefWidth="205.0" style="-fx-background-color: #003e3f; -fx-background-radius: 100;" text="♞ Start Playing" textFill="WHITE">
+         <font>
+            <Font name="Bernard MT Condensed" size="21.0" />
+         </font></Button>
+      <Button layoutX="240.0" layoutY="260.0" mnemonicParsing="false" mouseTransparent="true" prefHeight="30.0" prefWidth="170.0" style="-fx-background-color: #003e3f; -fx-background-radius: 100;" text="🏆 Games History" textFill="WHITE">
+         <font>
+            <Font name="Bernard MT Condensed" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="240.0" layoutY="300.0" mnemonicParsing="false" mouseTransparent="true" prefHeight="30.0" prefWidth="170.0" style="-fx-background-color: #003e3f; -fx-background-radius: 100;" text="❓Manage Questions" textFill="WHITE">
+         <font>
+            <Font name="Bernard MT Condensed" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="559.0" layoutY="418.0" mnemonicParsing="false" mouseTransparent="true" prefHeight="23.0" prefWidth="92.0" style="-fx-background-color: #003e3f; -fx-background-radius: 1000;" text="📄 Game Rules" textFill="WHITE">
+         <font>
+            <Font name="Bernard MT Condensed" size="11.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="175.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Knight's Move">
+         <font>
+            <Font name="Bernard MT Condensed" size="60.0" />
+         </font>
+      </Text>
+      <Button layoutX="14.0" layoutY="418.0" mnemonicParsing="false" mouseTransparent="true" prefHeight="23.0" prefWidth="55.0" style="-fx-background-color: #003e3f; -fx-background-radius: 1000;" text="❌ Exit" textFill="WHITE">
+         <font>
+            <Font name="Bernard MT Condensed" size="11.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
